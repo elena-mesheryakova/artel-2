@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mob View</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Mono:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/magnific-popup.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="home section" id="home">
+        <header class="header__inner">
+          <div class="container-max">
+            <div class="header">
+              <div class="logo">
+                <a href="#">artel <span>;</span></a>
+              </div>
+              <nav class="menu__nav">
+                <ul class="menu__list">
+                  <li class="menu__nav-list">
+                    <a class="menu__nav-link active" href="#home">Главная</a>
+                  </li>
+                  <li class="menu__nav-list">
+                    <a class="menu__nav-link" href="#how">Как работает?</a>
+                  </li>
+                  <li class="menu__nav-list">
+                    <a class="menu__nav-link" href="#forme">Подходит ли мне?</a>
+                  </li>
+                  <li class="menu__nav-list">
+                    <a class="menu__nav-link" href="#price">Стоимость</a>
+                  </li>
+                  <li class="menu__nav-list">
+                    <a class="menu__nav-link" href="#contacts">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="header__phone">
+                <a class="tel" href="tel:+74993467554"
+                  ><div class="call-svg">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 18 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.84298 4.3922C7.84298 4.39234 7.8428 4.3924 7.84271 4.3923L5.13674 1.26879C4.82476 0.908811 4.25279 0.910411 3.89041 1.27359L1.66495 3.50306C1.00259 4.16622 0.812997 5.15096 1.19617 5.94051C3.48533 10.6802 7.30784 14.5081 12.0443 16.8039C12.8331 17.187 13.817 16.9974 14.4794 16.3343L16.7256 14.084C17.0896 13.72 17.0904 13.1449 16.7272 12.8329L13.5914 10.1411C13.2635 9.85947 12.7539 9.89627 12.4251 10.2259L11.334 11.3186C11.2781 11.3771 11.2046 11.4157 11.1247 11.4284C11.0447 11.4412 10.9629 11.4273 10.8916 11.389C9.10806 10.3619 7.62858 8.88052 6.60385 7.09564C6.56547 7.02425 6.55158 6.94223 6.56429 6.86218C6.57701 6.78213 6.61564 6.70846 6.67425 6.65247L7.76218 5.56373C8.09166 5.23265 8.12774 4.7209 7.84324 4.39211C7.84315 4.392 7.84298 4.39206 7.84298 4.3922V4.3922Z"
+                        stroke="white"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg></div
+                ></a>
+
+                <a class="tel-link" href="tel:+74993467554"
+                  >+7 (499) 346-75-54</a
+                >
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="home__wrapper">
+          <div class="container-max">
+            <div class="home__inner">
+              <div class="home__img">
+                <picture>
+                  <source
+                    srcset="./img/bg-home-375.png"
+                    type="image/png"
+                    media="(max-width: 520px)"
+                  />
+                  <source
+                    srcset="./img/bg-home-770.png"
+                    type="image/png"
+                    media="(max-width: 850px)"
+                  />
+                  <source
+                    srcset="./img/bg-home-1024.png"
+                    type="image/png"
+                    media="(max-width: 1090px)"
+                  />
+
+                  <img src="./img/bg-home-1440.png" alt="" />
+                </picture>
+              </div>
+              <div class="home__info info">
+                <h1 class="info__title">Хотите</h1>
+                <h2 class="info__title-color">
+                  Мобильное <br />
+                  Приложение?
+                </h2>
+                <div class="info__subtitle">
+                  Сделаем мобильное приложение из Вашего сайта за 3 дня!
+                </div>
+
+                <div class="info__box-btn">
+                  <div class="info__btn-star btn">
+                    <div class="star-svg">
+                      <svg
+                        width="14"
+                        height="13"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7.04332 0.822024L8.41069 3.29128C8.61748 3.66472 8.97359 3.93236 9.38981 4.02716L12.1212 4.64928C12.4871 4.73263 12.6342 5.17446 12.3912 5.46051L10.4772 7.71366C10.2146 8.02271 10.0884 8.42489 10.1272 8.82853L10.4117 11.7832C10.4487 12.1677 10.0542 12.4472 9.7037 12.2847L7.2367 11.1413C6.83662 10.9558 6.37521 10.9558 5.97513 11.1413L3.50812 12.2847C3.15762 12.4472 2.76315 12.1677 2.80016 11.7832L3.08458 8.82853C3.12344 8.42489 2.99721 8.02271 2.73467 7.71366L0.820608 5.46051C0.577609 5.17446 0.724674 4.73263 1.09063 4.64928L3.82202 4.02716C4.23823 3.93236 4.59434 3.66472 4.80114 3.29128L6.1685 0.822024C6.35883 0.478317 6.85299 0.478317 7.04332 0.822024Z"
+                          stroke="#090909"
+                        />
+                      </svg>
+                    </div>
+                    <a class="popup-modal" href="#form-modal"
+                      >Попробовать бесплатно</a
+                    >
+                  </div>
+                  <div class="info__btn btn">
+                    <a class="popup-modal" href="#form-modal">Заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="how section" id="how">
+        <div class="container">
+          <div class="how__inner">
+            <h1 class="how__title wow fadeInUp">Как это работает?</h1>
+            <div class="how__subtitle wow fadeInUp" data-wow-duration="2s">
+              Мы создаём приложение, внутрь которого загружается мобильная
+              версия Вашего сайта, и размещаем его на App Store и Google Play.
+            </div>
+            <div class="how__img">
+              <picture>
+                <source
+                  srcset="./img/bg-how-375.png"
+                  type="image/png"
+                  media="(max-width: 600px)"
+                />
+                <source
+                  srcset="./img/bg-how-1024.png"
+                  type="image/png"
+                  media="(max-width: 1024px)"
+                />
+
+                <img
+                  class="wow zoomIn"
+                  data-wow-duration="1.5s"
+                  src="./img/bg-how-1920.png"
+                  alt=""
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gift">
+        <div class="container">
+          <div class="gift__inner">
+            <div class="gift__image">
+              <picture>
+                <source
+                  srcset="./img/gift-1024.png"
+                  type="image/png"
+                  media="(max-width: 1024px)"
+                />
+
+                <img
+                  class="wow pulse"
+                  data-wow-duration="2s"
+                  data-wow-iteration="infinite"
+                  src="./img/gift-1920.png"
+                  alt=""
+                />
+              </picture>
+            </div>
+            <div class="gift__info info__gift">
+              <h1 class="info__gift-title wow fadeInUp" data-wow-duration="2s">
+                Попробуйте <br />Бесплатно
+              </h1>
+              <div
+                class="info__gift-subtitle wow fadeInUp"
+                data-wow-duration="2.5s"
+              >
+                Можно долго объяснять, но лучше попробовать: упакуем Ваш сайт в
+                демо-приложение и вышлем Вам.
+              </div>
+
+              <div class="info__gift-btn wow fadeInUp" data-wow-duration="3s">
+                <div class="gift-svg">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.8333 6.66669H4.16667C3.24619 6.66669 2.5 7.41288 2.5 8.33335V16.6667C2.5 17.5872 3.24619 18.3334 4.16667 18.3334H15.8333C16.7538 18.3334 17.5 17.5872 17.5 16.6667V8.33335C17.5 7.41288 16.7538 6.66669 15.8333 6.66669Z"
+                      stroke="#090909"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 4.16669C10 3.67223 9.85338 3.18889 9.57867 2.77776C9.30397 2.36664 8.91352 2.04621 8.45671 1.85699C7.99989 1.66777 7.49723 1.61826 7.01227 1.71472C6.52732 1.81119 6.08187 2.04929 5.73223 2.39892C5.3826 2.74855 5.1445 3.19401 5.04804 3.67896C4.95157 4.16391 5.00108 4.66658 5.1903 5.1234C5.37952 5.58021 5.69995 5.97066 6.11108 6.24536C6.5222 6.52007 7.00555 6.66669 7.5 6.66669"
+                      stroke="#090909"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12.5 6.66669C12.9945 6.66669 13.4778 6.52007 13.8889 6.24536C14.3 5.97066 14.6205 5.58021 14.8097 5.1234C14.9989 4.66658 15.0484 4.16391 14.952 3.67896C14.8555 3.19401 14.6174 2.74855 14.2678 2.39892C13.9181 2.04929 13.4727 1.81119 12.9877 1.71472C12.5028 1.61826 12.0001 1.66777 11.5433 1.85699C11.0865 2.04621 10.696 2.36664 10.4213 2.77776C10.1466 3.18889 10 3.67223 10 4.16669"
+                      stroke="#090909"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M10 4.16669V18.3334"
+                      stroke="#090909"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M17.5 12.5H2.5"
+                      stroke="#090909"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <a class="popup-modal" href="#form-modal">Получить файл</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="forme section" id="forme">
+        <div class="company">
+          <div class="container">
+            <div class="company__title">Кто пользуется таким решением</div>
+
+            <div class="company__items company__slider">
+              <div class="company__item">
+                <img src="./img/label.png" alt="" />
+              </div>
+              <div class="company__item">
+                <img src="./img/label.png" alt="" />
+              </div>
+              <div class="company__item">
+                <img src="./img/label.png" alt="" />
+              </div>
+              <div class="company__item">
+                <img src="./img/label.png" alt="" />
+              </div>
+              <div class="company__item">
+                <img src="./img/label.png" alt="" />
+              </div>
+              <div class="company__item">
+                <img src="./img/label.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="company-shadow"></span>
+
+        <div class="container">
+          <div class="forme__inner">
+            <div class="forme__info info__forme">
+              <h1 class="info__forme-title wow fadeInUp" data-wow-duration="2s">
+                Подходит ли мне?
+              </h1>
+              <h2
+                class="info__forme-subtitle wow fadeInUp"
+                data-wow-duration="2.5s"
+              >
+                Да, если...
+              </h2>
+              <ul class="info__forme-list">
+                <li
+                  class="info__forme-item wow fadeInUp"
+                  data-wow-duration="2s"
+                >
+                  У Вас уже есть сайт или интернет-магазин и его функционал
+                  полностью повторяет функционал мобильного приложения.
+                </li>
+                <li
+                  class="info__forme-item wow fadeInUp"
+                  data-wow-duration="2.5s"
+                >
+                  Вы хотите быстро и бюджетно протестировать, нужно ли Вам
+                  мобильно приложение.
+                </li>
+                <li
+                  class="info__forme-item wow fadeInUp"
+                  data-wow-duration="3s"
+                >
+                  Вам необходимо срочно создать мобильное приложение к уже
+                  существующему проекту.
+                </li>
+              </ul>
+            </div>
+            <div class="forme__image">
+              <picture>
+                <source
+                  srcset="./img/bg-forme-375.png"
+                  type="image/png"
+                  media="(max-width: 520px)"
+                />
+                <source
+                  srcset="./img/bg-forme-990.png"
+                  type="image/png"
+                  media="(max-width: 990px)"
+                />
+                <source
+                  srcset="./img/bg-forme-1024.png"
+                  type="image/png"
+                  media="(max-width: 1024px)"
+                />
+
+                <img
+                  class="wow zoomIn"
+                  data-wow-duration="2s"
+                  src="./img/bg-forme-1920.png"
+                  alt=""
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="shadow__wrap">
+        <section class="price section" id="price">
+          <div class="container">
+            <h1 class="price__title wow fadeInUp" data-wow-duration="1.5s">
+              Сколько стоит?
+            </h1>
+            <div class="price__items">
+              <div class="price__item wow fadeInUp" data-wow-duration="1s">
+                <div class="price__item-img">
+                  <picture>
+                    <source
+                      srcset="./img/plane-1024.png"
+                      type="image/png"
+                      media="(max-width: 1024px)"
+                    />
+
+                    <img
+                      class="plane wow pulse"
+                      src="./img/plane-1920.png"
+                      data-wow-duration="2s"
+                      data-wow-iteration="infinite"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+                <div
+                  class="price__item-title wow fadeInUp"
+                  data-wow-duration="2s"
+                >
+                  Попробовать бесплатно
+                </div>
+                <div
+                  class="price__item-subtitle wow fadeInUp"
+                  data-wow-duration="2.4s"
+                >
+                  Пришлём APK файл с демонстрационной версией Вашего приложеня.
+                </div>
+                <div
+                  class="price__item-price wow fadeInUp"
+                  data-wow-duration="2.8s"
+                >
+                  0 ₽
+                </div>
+                <div
+                  class="price__item-btn wow fadeInUp"
+                  data-wow-duration="3s"
+                >
+                  <div class="gift-svg">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.8333 6.66669H4.16667C3.24619 6.66669 2.5 7.41288 2.5 8.33335V16.6667C2.5 17.5872 3.24619 18.3334 4.16667 18.3334H15.8333C16.7538 18.3334 17.5 17.5872 17.5 16.6667V8.33335C17.5 7.41288 16.7538 6.66669 15.8333 6.66669Z"
+                        stroke="#090909"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10 4.16669C10 3.67223 9.85338 3.18889 9.57867 2.77776C9.30397 2.36664 8.91352 2.04621 8.45671 1.85699C7.99989 1.66777 7.49723 1.61826 7.01227 1.71472C6.52732 1.81119 6.08187 2.04929 5.73223 2.39892C5.3826 2.74855 5.1445 3.19401 5.04804 3.67896C4.95157 4.16391 5.00108 4.66658 5.1903 5.1234C5.37952 5.58021 5.69995 5.97066 6.11108 6.24536C6.5222 6.52007 7.00555 6.66669 7.5 6.66669"
+                        stroke="#090909"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12.5 6.66669C12.9945 6.66669 13.4778 6.52007 13.8889 6.24536C14.3 5.97066 14.6205 5.58021 14.8097 5.1234C14.9989 4.66658 15.0484 4.16391 14.952 3.67896C14.8555 3.19401 14.6174 2.74855 14.2678 2.39892C13.9181 2.04929 13.4727 1.81119 12.9877 1.71472C12.5028 1.61826 12.0001 1.66777 11.5433 1.85699C11.0865 2.04621 10.696 2.36664 10.4213 2.77776C10.1466 3.18889 10 3.67223 10 4.16669"
+                        stroke="#090909"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M10 4.16669V18.3334"
+                        stroke="#090909"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M17.5 12.5H2.5"
+                        stroke="#090909"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <a class="popup-modal" href="#form-modal">Получить файл</a>
+                </div>
+              </div>
+              <div class="price__item wow fadeInUp" data-wow-duration="1.5s">
+                <div class="price__item-img">
+                  <picture>
+                    <source
+                      srcset="./img/lightning-1024.png"
+                      type="image/png"
+                      media="(max-width: 1024px)"
+                    />
+
+                    <img
+                      class="lightning wow pulse"
+                      data-wow-duration="2s"
+                      data-wow-iteration="infinite"
+                      src="./img/lightning-1920.png"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+                <div
+                  class="price__item-title wow fadeInUp"
+                  data-wow-duration="2s"
+                >
+                  Базовый функционал
+                </div>
+                <div
+                  class="price__item-subtitle wow fadeInUp"
+                  data-wow-duration="2.4s"
+                >
+                  Весь функционал Вашего сайта + push-рассылки
+                </div>
+                <div
+                  class="price__item-price wow fadeInUp"
+                  data-wow-duration="2.8s"
+                >
+                  50 000 ₽
+                </div>
+                <div
+                  class="price__item-btn btn-zakaz wow fadeInUp"
+                  data-wow-duration="3s"
+                >
+                  <a class="popup-modal" href="#form-modal">Заказать</a>
+                </div>
+              </div>
+              <div class="price__item wow fadeInUp" data-wow-duration="2s">
+                <div class="price__item-img">
+                  <picture>
+                    <source
+                      srcset="./img/rocket-1024.png"
+                      type="image/png"
+                      media="(max-width: 1024px)"
+                    />
+
+                    <img
+                      class="rocket wow pulse"
+                      data-wow-duration="2s"
+                      data-wow-iteration="infinite"
+                      src="./img/rocket-1920.png"
+                      alt=""
+                    />
+                  </picture>
+                </div>
+                <div
+                  class="price__item-title wow fadeInUp"
+                  data-wow-duration="2s"
+                >
+                  Расширенный функционал
+                </div>
+                <div
+                  class="price__item-subtitle wow fadeInUp"
+                  data-wow-duration="2.2s"
+                >
+                  Базовый функционал с доработкой под Ваши потребности.
+                </div>
+                <div
+                  class="price__item-price wow fadeInUp"
+                  data-wow-duration="2.4s"
+                >
+                  от 150 000 ₽
+                </div>
+                <div
+                  class="price__item-btn btn-zakaz wow fadeInUp"
+                  data-wow-duration="2.8s"
+                >
+                  <a class="popup-modal" href="#form-modal">Заказать</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contacts section" id="contacts">
+          <div class="container">
+            <div class="contacts__inner">
+              <div class="contacts__info">
+                <h1 class="contacts__title wow fadeInUp" data-wow-duration="1s">
+                  Остались вопросы? <br />
+                  <span class="wow fadeInUp" data-wow-duration="2s"
+                    >Задавайте!</span
+                  >
+                </h1>
+                <div class="contact__items-box">
+                  <div
+                    class="contacts__item wow fadeInUp"
+                    data-wow-duration="1s"
+                  >
+                    <div class="contacts__item-descr">Телефон:</div>
+                    <div class="contacts__item-info">
+                      <a href="tel:+74993467554">+7 (499) 346-75-54</a>
+                    </div>
+                  </div>
+
+                  <div
+                    class="contacts__item wow fadeInUp"
+                    data-wow-duration="1.5s"
+                  >
+                    <div class="contacts__item-descr">Почта:</div>
+                    <div class="contacts__item-info">
+                      <a href="mailto:artel-studio@yandex.ru"
+                        >artel-studio@yandex.ru</a
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="contacts__item wow fadeInUp"
+                    data-wow-duration="2s"
+                  >
+                    <div class="contacts__item-descr">Телеграм:</div>
+                    <div class="contacts__item-info">
+                      <a href="https://t.me/codemagic" target="_blank"
+                        >@codemagic</a
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="contacts__item wow fadeInUp"
+                    data-wow-duration="2.5s"
+                  >
+                    <div class="contacts__item-descr">WhatsApp:</div>
+                    <div class="contacts__item-info">
+                      <a href="https://wa.me/79236470954" target="_blank"
+                        >+7 (923) 647-09-54</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contacts__image wow fadeInUp" data-wow-duration="2s">
+                <picture>
+                  <source
+                    srcset="./img/bg-contact-375.png"
+                    type="image/png"
+                    media="(max-width: 520px)"
+                  />
+                  <source
+                    srcset="./img/bg-contact-768.png"
+                    type="image/png"
+                    media="(max-width: 910px)"
+                  />
+
+                  <img
+                    class="wow zoomIn"
+                    data-wow-duration="2s"
+                    src="./img/bg-contact-1920.png"
+                    alt=""
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container-max">
+            <div class="footer__inner">
+              <div class="footer__logo">
+                <a href="#">artel <span>;</span></a>
+              </div>
+              <div class="footer__nav">
+                <ul>
+                  <li class="footer__nav-list">
+                    <a class="footer__nav-link" href="#home">Главная</a>
+                  </li>
+                  <li class="footer__nav-list">
+                    <a class="footer__nav-link" href="#how">Как работает?</a>
+                  </li>
+                  <li class="footer__nav-list">
+                    <a class="footer__nav-link" href="#forme"
+                      >Подходит ли мне?</a
+                    >
+                  </li>
+                  <li class="footer__nav-list">
+                    <a class="footer__nav-link" href="#price">Стоимость</a>
+                  </li>
+                  <li class="footer__nav-list">
+                    <a class="footer__nav-link" href="#contacts">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <form id="form-modal" class="mfp-hide white-popup-block">
+        <h1 class="form__title">Оставьте заявку</h1>
+        <p class="form__subtitle">
+          Укажите Ваш номер телефона и адрес сайта. <br />
+          Как только приложение будет готово, наш специалист свяжется с Вами.
+        </p>
+        <div class="form__box">
+          <div class="form__item">
+            <p class="form__text">Ваш номер телефона</p>
+            <input
+              class="form__mask"
+              type="tel"
+              placeholder="+7 (___) ___ - __ - __"
+            />
+          </div>
+          <div class="form__item">
+            <p class="form__text">Удобное время для звонка</p>
+
+            <input
+              id="eITDbegintime"
+              type="text"
+              placeholder="00:00 (По Мск)"
+            />
+          </div>
+        </div>
+        <div class="form__item form__item--email">
+          <p class="form__text">Адрес Вашего сайта</p>
+          <input type="email" placeholder="E-mail" />
+        </div>
+        <div class="form__box-btn">
+          <p><a class="popup-modal-dismiss" href="#">Отменить</a></p>
+          <button class="form__btn" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
